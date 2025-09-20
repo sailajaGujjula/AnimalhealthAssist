@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Animal Health Prediction</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Animal Health Prediction</h1>
+      <form id="prediction-form">
+        <div class="form-group">
+          <label for="animal">Animal:</label>
+          <select class="form-control" id="animal" required></select>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            step="1.0"
+            class="form-control"
+            id="age"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select class="form-control" id="gender" required></select>
+        </div>
+
+        <h5>Symptoms:</h5>
+        <div class="form-group">
+          <label>Fever:</label>
+          <select class="form-control" id="fever" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Cough:</label>
+          <select class="form-control" id="cough" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Vomiting:</label>
+          <select class="form-control" id="vomiting" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Diarrhea:</label>
+          <select class="form-control" id="diarrhea" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Lethargy:</label>
+          <select class="form-control" id="lethargy" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Loss of Appetite:</label>
+          <select class="form-control" id="appetite" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Sneezing:</label>
+          <select class="form-control" id="sneezing" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Skin Rash:</label>
+          <select class="form-control" id="rash" required>
+            <option value="" disabled selected>Select...</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Predict Disease</button>
+      </form>
+      <h3 id="result" class="mt-4"></h3>
+      <button
+        id="medication-button"
+        class="btn btn-info medication-button"
+        style="display: none;"
+      >
+        Show Medications
+      </button>
+      <div id="treatment"></div>
+      <div id="medications"></div>
+    </div>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", async () => {
+        try {
+          const response = await fetch("/options");
+          const data = await response.json();
+          const animalSelect = document.getElementById("animal");
+          const genderSelect = document.getElementById("gender");
+
+          data.animals.forEach((animal) => {
+            let option = document.createElement("option");
+            option.value = animal;
+            option.text = animal;
+            animalSelect.appendChild(option);
+          });
+
+          data.genders.forEach((gender) => {
+            let option = document.createElement("option");
+            option.value = gender;
+            option.text = gender;
+            genderSelect.appendChild(option);
+          });
+        } catch (err) {
+          console.error("Failed to load options:", err);
+        }
+      });
+
+      let currentDisease = ""; // Store disease for later
+
+      document
+        .getElementById("prediction-form")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const data = {
+            animal: document.getElementById("animal").value,
+            age: document.getElementById("age").value,
+            gender: document.getElementById("gender").value,
+            fever: document.getElementById("fever").value,
+            cough: document.getElementById("cough").value,
+            vomiting: document.getElementById("vomiting").value,
+            diarrhea: document.getElementById("diarrhea").value,
+            lethargy: document.getElementById("lethargy").value,
+            appetite: document.getElementById("appetite").value,
+            sneezing: document.getElementById("sneezing").value,
+            rash: document.getElementById("rash").value,
+          };
+
+          try {
+            const response = await fetch("/predict", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+            const result = await response.json();
+            if (result.error) {
+  document.getElementById("result").innerText = "Error: " + result.error;
+  document.getElementById("medication-button").style.display = "none";
+  currentDisease = "";
+  document.getElementById("treatment").innerHTML = "";
+  document.getElementById("medications").innerHTML = "";
+} else {
+  // Assuming 'Healthy' or 'No Disease' or 'None' indicates no illness
+  const healthyValues = ["Healthy", "No Disease", "None", "healthy"];
+  if (healthyValues.includes(result.disease)) {
+    document.getElementById("result").innerText =
+      "Your pet is healthy! There is no medication. Keep up with nutritious food.";
+    document.getElementById("medication-button").style.display = "none";
+    document.getElementById("treatment").innerHTML = "";
+    document.getElementById("medications").innerHTML = "";
+    currentDisease = "";
+  } else {
+    document.getElementById("result").innerText =
+      "Predicted Disease: " + result.disease;
+    currentDisease = result.disease;
+    document.getElementById("medication-button").style.display = "inline-block";
+    document.getElementById("treatment").innerHTML = "";
+    document.getElementById("medications").innerHTML = "";
+  }
+}
+
+          } catch (err) {
+            document.getElementById("result").innerText =
+              "Error connecting to server";
+            document.getElementById("medication-button").style.display = "none";
+          }
+        });
+
+      document
+        .getElementById("medication-button")
+        .addEventListener("click", async () => {
+          if (!currentDisease) {
+            alert("Please predict a disease first!");
+            return;
+          }
+
+          try {
+            const response = await fetch(`/medication?disease=${encodeURIComponent(currentDisease)}`);
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            } 
+            const data = await response.json();
+            if (data.error) {
+              document.getElementById("treatment").innerText =
+                "Error: " + data.error;
+              document.getElementById("medications").innerHTML = "";
+            } else {
+              document.getElementById("treatment").innerHTML =
+                "<strong>Recommended Treatment:</strong> " + data.treatment;
+              let medsHtml = "<strong>Available Medications:</strong><ul>";
+              data.medications.forEach((med) => {
+                medsHtml += `<li>${med.name}: <a href="${med.link}" target="_blank">${med.link}</a></li>`;
+              });
+              medsHtml += "</ul>";
+              document.getElementById("medications").innerHTML = medsHtml;
+            }
+          } catch (err) {
+            document.getElementById("treatment").innerText =
+              "Error fetching medications.";
+            document.getElementById("medications").innerHTML = "";
+          }
+        });
+    </script>
+  </body>
+</html>

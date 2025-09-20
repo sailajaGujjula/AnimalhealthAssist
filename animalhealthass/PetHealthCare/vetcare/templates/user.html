@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+</head>
+<body>
+    <h2>All Registered Users</h2>
+    <a href="/export_csv">Export to CSV</a>
+    <table border="1">
+        <tr>
+            {% for header in users[0].keys() %}
+                <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+        {% for user in users %}
+        <tr>
+            {% for value in user %}
+                <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

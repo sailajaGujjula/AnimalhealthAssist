@@ -1,0 +1,511 @@
+Animal,Age,Gender,Fever,Cough,Vomiting,Diarrhea,Lethargy,Loss of Appetite,Sneezing,Skin Rash,Disease
+Cat,2,Male,Yes,Yes,Yes,No,Yes,No,No,Yes,Parvovirus
+Rabbit,8,Male,Yes,Yes,No,Yes,No,No,Yes,Yes,Parvovirus
+Rabbit,6,Male,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Feline Leukemia
+Rabbit,1,Female,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Parvovirus
+Dog,8,Male,Yes,No,No,No,No,Yes,No,No,Avian Flu
+Cat,7,Female,Yes,No,Yes,Yes,No,Yes,No,No,Gastroenteritis
+Hamster,5,Female,Yes,Yes,Yes,No,No,No,No,No,Rabies
+Cat,5,Male,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Healthy
+Cat,9,Female,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Gastroenteritis
+Rabbit,6,Male,No,No,Yes,No,No,Yes,Yes,Yes,Rabies
+Parrot,1,Female,No,Yes,Yes,No,Yes,No,No,No,Parvovirus
+Parrot,2,Male,No,Yes,Yes,No,Yes,No,Yes,No,Avian Flu
+Parrot,15,Female,Yes,Yes,Yes,No,No,Yes,Yes,No,Avian Flu
+Rabbit,3,Female,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Rabies
+Cat,7,Male,No,No,Yes,Yes,No,No,No,Yes,Gastroenteritis
+Parrot,5,Male,No,Yes,No,Yes,Yes,No,Yes,Yes,Feline Leukemia
+Hamster,14,Male,Yes,No,No,Yes,Yes,Yes,Yes,No,Mite Infestation
+Dog,10,Male,No,No,No,Yes,Yes,No,No,No,Mite Infestation
+Dog,11,Male,No,Yes,Yes,No,Yes,No,Yes,Yes,Rabies
+Parrot,7,Male,No,No,No,No,No,Yes,No,Yes,Parvovirus
+Dog,12,Female,Yes,Yes,Yes,No,No,Yes,Yes,No,Parvovirus
+Dog,7,Male,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Healthy
+Parrot,9,Male,Yes,No,Yes,No,Yes,No,Yes,No,Gastroenteritis
+Rabbit,11,Male,No,Yes,No,Yes,Yes,Yes,Yes,No,Parvovirus
+Parrot,9,Female,No,Yes,Yes,Yes,No,Yes,No,Yes,Healthy
+Parrot,15,Male,No,Yes,Yes,Yes,No,Yes,No,Yes,Rabies
+Dog,1,Male,Yes,Yes,No,Yes,No,No,No,No,Gastroenteritis
+Hamster,12,Female,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Healthy
+Rabbit,3,Female,Yes,No,No,No,Yes,No,No,Yes,Parvovirus
+Parrot,6,Male,No,Yes,No,Yes,Yes,Yes,No,Yes,Gastroenteritis
+Dog,4,Female,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Feline Leukemia
+Dog,15,Male,No,Yes,No,Yes,No,Yes,No,Yes,Rabies
+Hamster,15,Female,No,Yes,No,Yes,Yes,Yes,No,No,Healthy
+Cat,11,Female,Yes,No,Yes,Yes,Yes,No,No,Yes,Healthy
+Hamster,5,Female,Yes,No,No,No,No,Yes,Yes,No,Avian Flu
+Parrot,8,Female,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Gastroenteritis
+Hamster,13,Male,Yes,Yes,No,Yes,Yes,No,No,No,Mite Infestation
+Dog,2,Female,No,Yes,No,Yes,Yes,Yes,No,No,Feline Leukemia
+Parrot,5,Male,No,Yes,No,Yes,Yes,No,Yes,No,Healthy
+Parrot,12,Male,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Mite Infestation
+Hamster,9,Male,Yes,No,No,Yes,Yes,Yes,Yes,No,Mite Infestation
+Hamster,10,Female,No,Yes,Yes,No,No,No,Yes,Yes,Gastroenteritis
+Dog,7,Male,Yes,No,No,No,Yes,Yes,Yes,No,Feline Leukemia
+Parrot,7,Female,No,No,No,Yes,Yes,Yes,No,No,Rabies
+Dog,7,Female,No,No,No,No,No,No,No,No,Mite Infestation
+Dog,14,Male,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Gastroenteritis
+Cat,6,Female,Yes,Yes,No,Yes,No,Yes,Yes,No,Feline Leukemia
+Dog,15,Male,Yes,Yes,Yes,No,Yes,No,Yes,No,Rabies
+Cat,4,Male,Yes,Yes,No,No,No,Yes,Yes,No,Parvovirus
+Dog,4,Male,Yes,No,Yes,No,No,Yes,No,No,Avian Flu
+Rabbit,5,Female,No,Yes,Yes,Yes,Yes,No,No,No,Parvovirus
+Dog,7,Female,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Gastroenteritis
+Cat,10,Male,Yes,No,Yes,No,Yes,No,Yes,No,Healthy
+Hamster,5,Male,Yes,Yes,No,No,Yes,Yes,No,No,Feline Leukemia
+Hamster,4,Female,No,Yes,No,No,No,No,Yes,No,Healthy
+Dog,8,Female,Yes,Yes,Yes,Yes,No,No,No,Yes,Rabies
+Dog,12,Male,No,Yes,No,Yes,Yes,Yes,Yes,No,Parvovirus
+Cat,3,Female,Yes,Yes,Yes,Yes,No,No,No,Yes,Avian Flu
+Parrot,12,Female,Yes,Yes,No,No,No,No,Yes,Yes,Mite Infestation
+Dog,9,Female,No,No,Yes,Yes,Yes,No,Yes,No,Avian Flu
+Cat,6,Female,Yes,Yes,No,Yes,No,No,Yes,No,Gastroenteritis
+Parrot,11,Female,Yes,No,No,Yes,No,Yes,Yes,Yes,Healthy
+Hamster,1,Female,Yes,No,Yes,Yes,No,No,Yes,No,Mite Infestation
+Dog,13,Female,No,No,No,No,Yes,Yes,No,Yes,Parvovirus
+Dog,14,Female,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Mite Infestation
+Hamster,4,Male,No,No,No,Yes,No,Yes,No,Yes,Mite Infestation
+Cat,6,Male,Yes,No,No,Yes,Yes,No,No,No,Feline Leukemia
+Hamster,12,Male,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Parvovirus
+Dog,5,Male,Yes,No,No,No,No,No,Yes,Yes,Parvovirus
+Hamster,15,Female,Yes,Yes,No,Yes,No,No,No,No,Feline Leukemia
+Hamster,4,Male,Yes,Yes,Yes,No,No,Yes,No,Yes,Avian Flu
+Rabbit,5,Female,Yes,No,No,No,No,No,Yes,No,Mite Infestation
+Dog,12,Female,Yes,No,Yes,Yes,Yes,No,Yes,No,Healthy
+Parrot,11,Male,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Rabies
+Cat,11,Female,No,No,No,No,No,No,Yes,Yes,Feline Leukemia
+Dog,3,Female,Yes,Yes,No,Yes,No,Yes,Yes,No,Mite Infestation
+Hamster,11,Male,No,No,Yes,Yes,No,No,Yes,No,Gastroenteritis
+Hamster,8,Male,Yes,No,No,No,No,No,Yes,Yes,Rabies
+Parrot,15,Female,Yes,No,Yes,No,No,Yes,No,Yes,Avian Flu
+Rabbit,13,Male,Yes,Yes,Yes,No,No,No,No,No,Parvovirus
+Rabbit,9,Male,Yes,No,Yes,No,No,Yes,Yes,No,Gastroenteritis
+Hamster,1,Male,No,No,No,No,Yes,Yes,No,No,Feline Leukemia
+Cat,6,Male,No,Yes,No,No,Yes,No,No,No,Mite Infestation
+Cat,15,Male,Yes,No,No,Yes,No,No,Yes,No,Feline Leukemia
+Hamster,3,Male,Yes,No,No,Yes,No,Yes,No,No,Healthy
+Dog,7,Male,No,No,No,No,No,No,Yes,Yes,Healthy
+Dog,3,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Healthy
+Cat,5,Male,Yes,Yes,No,No,Yes,No,No,Yes,Feline Leukemia
+Parrot,2,Male,No,No,Yes,No,No,No,No,No,Mite Infestation
+Parrot,2,Female,No,Yes,Yes,No,Yes,Yes,No,Yes,Feline Leukemia
+Hamster,15,Male,No,No,Yes,Yes,No,Yes,No,Yes,Parvovirus
+Cat,14,Female,No,No,No,Yes,Yes,Yes,No,No,Parvovirus
+Parrot,6,Male,No,No,Yes,No,Yes,Yes,No,No,Avian Flu
+Dog,8,Female,No,Yes,No,No,Yes,Yes,No,No,Avian Flu
+Hamster,12,Male,Yes,Yes,No,No,No,No,Yes,No,Parvovirus
+Hamster,12,Female,Yes,No,No,No,No,Yes,No,Yes,Healthy
+Rabbit,4,Female,Yes,No,Yes,No,No,Yes,Yes,Yes,Mite Infestation
+Cat,13,Male,Yes,Yes,No,No,Yes,No,No,No,Healthy
+Hamster,14,Male,No,No,No,Yes,No,Yes,Yes,Yes,Gastroenteritis
+Cat,4,Male,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Healthy
+Hamster,1,Female,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Gastroenteritis
+Parrot,6,Male,No,Yes,Yes,No,Yes,Yes,Yes,No,Parvovirus
+Dog,9,Female,Yes,No,Yes,No,Yes,No,No,Yes,Mite Infestation
+Dog,15,Male,Yes,No,No,Yes,No,Yes,No,Yes,Feline Leukemia
+Rabbit,5,Female,Yes,No,No,Yes,Yes,Yes,No,No,Mite Infestation
+Dog,1,Female,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Parvovirus
+Cat,8,Female,No,Yes,No,Yes,No,Yes,Yes,No,Parvovirus
+Hamster,10,Female,No,No,No,Yes,No,No,No,No,Mite Infestation
+Rabbit,10,Male,Yes,No,Yes,Yes,No,No,Yes,No,Feline Leukemia
+Hamster,13,Female,Yes,Yes,No,Yes,Yes,Yes,No,No,Avian Flu
+Parrot,14,Male,No,No,No,No,Yes,Yes,Yes,Yes,Parvovirus
+Hamster,6,Male,No,Yes,No,No,No,Yes,No,No,Gastroenteritis
+Parrot,11,Male,No,No,Yes,Yes,No,Yes,Yes,No,Mite Infestation
+Hamster,14,Male,Yes,Yes,No,No,No,Yes,Yes,No,Mite Infestation
+Cat,12,Male,Yes,No,Yes,Yes,Yes,No,Yes,No,Mite Infestation
+Dog,15,Male,Yes,No,Yes,Yes,No,No,No,Yes,Healthy
+Hamster,4,Male,Yes,Yes,No,No,Yes,Yes,Yes,No,Avian Flu
+Hamster,2,Female,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Rabies
+Rabbit,14,Male,Yes,Yes,No,No,Yes,No,No,No,Healthy
+Rabbit,5,Male,No,No,Yes,Yes,No,Yes,No,Yes,Rabies
+Cat,9,Female,No,Yes,Yes,No,No,Yes,No,Yes,Feline Leukemia
+Parrot,7,Male,Yes,No,Yes,No,Yes,No,Yes,No,Mite Infestation
+Rabbit,4,Female,No,No,No,Yes,Yes,Yes,Yes,Yes,Gastroenteritis
+Hamster,4,Male,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Feline Leukemia
+Rabbit,4,Female,No,No,Yes,Yes,Yes,No,Yes,Yes,Rabies
+Dog,3,Male,Yes,No,Yes,Yes,Yes,No,No,No,Avian Flu
+Parrot,4,Male,No,Yes,Yes,No,No,No,No,Yes,Gastroenteritis
+Dog,1,Male,Yes,Yes,Yes,Yes,No,No,Yes,No,Rabies
+Parrot,5,Male,Yes,Yes,No,Yes,No,No,Yes,No,Rabies
+Cat,13,Female,No,No,Yes,Yes,Yes,No,Yes,No,Feline Leukemia
+Cat,10,Female,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Mite Infestation
+Parrot,5,Female,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Feline Leukemia
+Dog,5,Male,No,Yes,No,No,Yes,No,No,No,Healthy
+Hamster,7,Female,No,No,No,No,No,Yes,No,No,Mite Infestation
+Parrot,15,Male,Yes,Yes,No,Yes,No,No,No,Yes,Gastroenteritis
+Parrot,10,Female,Yes,No,No,No,No,No,No,No,Healthy
+Dog,8,Male,No,Yes,No,Yes,Yes,No,No,Yes,Mite Infestation
+Cat,12,Female,Yes,No,No,No,Yes,No,Yes,Yes,Feline Leukemia
+Rabbit,4,Female,Yes,No,Yes,No,Yes,No,No,No,Feline Leukemia
+Parrot,5,Female,Yes,Yes,No,No,Yes,No,Yes,Yes,Parvovirus
+Hamster,6,Female,Yes,No,No,Yes,No,No,No,Yes,Mite Infestation
+Rabbit,15,Female,Yes,No,No,No,No,No,No,No,Parvovirus
+Parrot,7,Female,No,No,No,Yes,No,Yes,Yes,Yes,Avian Flu
+Hamster,8,Female,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Avian Flu
+Rabbit,9,Female,No,No,No,Yes,Yes,Yes,Yes,No,Avian Flu
+Parrot,9,Female,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Feline Leukemia
+Cat,11,Male,No,Yes,Yes,No,No,No,No,Yes,Parvovirus
+Dog,10,Female,Yes,No,No,No,Yes,Yes,No,No,Gastroenteritis
+Hamster,11,Male,No,Yes,No,No,No,Yes,Yes,Yes,Parvovirus
+Hamster,14,Male,No,No,No,Yes,Yes,Yes,No,No,Gastroenteritis
+Dog,5,Female,No,No,Yes,No,Yes,No,No,No,Gastroenteritis
+Parrot,6,Male,No,Yes,No,No,Yes,No,No,Yes,Healthy
+Dog,5,Male,No,Yes,Yes,No,Yes,No,No,Yes,Avian Flu
+Rabbit,9,Male,Yes,No,Yes,Yes,No,No,No,Yes,Mite Infestation
+Dog,3,Male,No,Yes,Yes,No,No,No,No,No,Healthy
+Cat,15,Female,Yes,Yes,Yes,Yes,No,No,No,No,Parvovirus
+Parrot,6,Female,No,No,Yes,Yes,No,No,Yes,Yes,Rabies
+Cat,14,Female,No,No,Yes,Yes,Yes,Yes,Yes,No,Rabies
+Hamster,4,Male,No,No,Yes,Yes,No,No,No,Yes,Rabies
+Parrot,2,Female,No,Yes,No,Yes,No,No,No,No,Gastroenteritis
+Dog,7,Female,Yes,No,No,Yes,No,Yes,No,No,Healthy
+Cat,11,Female,Yes,No,Yes,Yes,No,No,No,Yes,Avian Flu
+Rabbit,7,Female,No,No,No,Yes,No,No,No,No,Avian Flu
+Hamster,12,Female,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Feline Leukemia
+Dog,6,Male,Yes,No,No,Yes,No,Yes,Yes,No,Feline Leukemia
+Parrot,1,Female,No,Yes,No,Yes,Yes,No,Yes,Yes,Parvovirus
+Parrot,12,Male,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Feline Leukemia
+Parrot,10,Female,No,No,No,No,No,No,Yes,No,Gastroenteritis
+Rabbit,11,Male,Yes,No,No,Yes,Yes,No,Yes,Yes,Parvovirus
+Rabbit,1,Female,Yes,No,Yes,No,No,No,Yes,Yes,Healthy
+Dog,13,Male,Yes,Yes,No,No,Yes,Yes,No,Yes,Parvovirus
+Cat,10,Female,Yes,Yes,No,No,No,Yes,No,No,Rabies
+Rabbit,13,Female,No,Yes,Yes,No,No,Yes,No,Yes,Gastroenteritis
+Dog,2,Female,Yes,Yes,Yes,No,No,No,No,Yes,Feline Leukemia
+Hamster,13,Female,Yes,Yes,No,No,Yes,No,No,Yes,Parvovirus
+Parrot,8,Female,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Avian Flu
+Hamster,15,Female,No,Yes,Yes,No,Yes,No,No,Yes,Gastroenteritis
+Dog,3,Female,No,No,Yes,No,No,No,No,No,Avian Flu
+Hamster,3,Female,Yes,Yes,No,Yes,Yes,No,No,Yes,Avian Flu
+Parrot,5,Female,Yes,No,Yes,No,Yes,No,Yes,No,Avian Flu
+Hamster,3,Female,No,No,Yes,No,No,No,No,Yes,Mite Infestation
+Cat,13,Male,Yes,Yes,No,Yes,No,No,No,No,Gastroenteritis
+Dog,2,Female,Yes,Yes,No,No,No,Yes,No,Yes,Gastroenteritis
+Hamster,7,Female,Yes,Yes,No,No,Yes,Yes,No,No,Feline Leukemia
+Dog,3,Female,No,Yes,Yes,No,Yes,No,No,No,Feline Leukemia
+Dog,14,Male,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Rabies
+Hamster,11,Male,No,No,No,Yes,No,Yes,Yes,Yes,Feline Leukemia
+Rabbit,2,Male,Yes,Yes,Yes,Yes,No,No,Yes,No,Parvovirus
+Dog,12,Female,Yes,No,No,No,No,No,No,No,Parvovirus
+Rabbit,7,Male,No,No,Yes,No,No,No,Yes,No,Parvovirus
+Parrot,6,Female,Yes,No,No,Yes,Yes,No,No,Yes,Parvovirus
+Hamster,1,Female,No,No,No,Yes,Yes,No,Yes,Yes,Avian Flu
+Parrot,9,Female,No,Yes,No,No,No,Yes,Yes,Yes,Mite Infestation
+Cat,3,Female,Yes,No,Yes,No,Yes,Yes,No,Yes,Gastroenteritis
+Rabbit,4,Male,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Rabies
+Dog,15,Male,Yes,No,Yes,No,No,Yes,No,No,Healthy
+Dog,14,Male,Yes,Yes,No,No,Yes,No,Yes,No,Avian Flu
+Rabbit,11,Male,Yes,Yes,No,No,No,No,No,Yes,Parvovirus
+Rabbit,10,Male,No,Yes,No,No,Yes,No,Yes,No,Gastroenteritis
+Cat,6,Female,Yes,No,No,Yes,No,Yes,Yes,Yes,Feline Leukemia
+Rabbit,4,Female,Yes,Yes,No,No,No,Yes,No,No,Avian Flu
+Rabbit,1,Female,Yes,No,No,Yes,No,Yes,Yes,No,Rabies
+Parrot,8,Male,No,No,Yes,No,Yes,Yes,No,No,Healthy
+Dog,6,Female,Yes,No,No,Yes,No,No,No,No,Avian Flu
+Rabbit,1,Female,No,No,No,No,No,Yes,No,Yes,Feline Leukemia
+Hamster,13,Female,No,Yes,No,No,Yes,No,No,Yes,Parvovirus
+Hamster,2,Male,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Parvovirus
+Dog,13,Male,Yes,No,Yes,Yes,Yes,No,No,Yes,Parvovirus
+Rabbit,3,Female,No,Yes,Yes,No,No,No,Yes,No,Mite Infestation
+Rabbit,4,Male,No,Yes,No,No,Yes,No,Yes,Yes,Healthy
+Hamster,9,Male,No,No,Yes,Yes,Yes,Yes,No,No,Avian Flu
+Cat,4,Male,No,Yes,Yes,No,Yes,Yes,No,No,Gastroenteritis
+Parrot,5,Female,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Parvovirus
+Cat,5,Male,Yes,Yes,No,No,Yes,No,Yes,Yes,Feline Leukemia
+Dog,3,Male,No,Yes,No,No,No,Yes,Yes,No,Gastroenteritis
+Dog,7,Female,Yes,No,No,No,Yes,No,Yes,Yes,Feline Leukemia
+Hamster,3,Male,Yes,No,Yes,No,Yes,No,No,No,Healthy
+Cat,12,Male,No,No,No,Yes,No,Yes,Yes,Yes,Healthy
+Rabbit,11,Male,Yes,Yes,No,No,Yes,No,No,Yes,Parvovirus
+Hamster,13,Female,No,Yes,Yes,Yes,Yes,Yes,No,No,Avian Flu
+Parrot,1,Female,Yes,No,Yes,No,No,No,Yes,Yes,Healthy
+Parrot,4,Female,Yes,No,No,No,Yes,No,No,No,Rabies
+Rabbit,13,Female,Yes,No,No,Yes,No,No,No,No,Parvovirus
+Parrot,5,Female,Yes,Yes,No,Yes,No,No,Yes,Yes,Parvovirus
+Rabbit,11,Male,No,No,No,Yes,Yes,No,Yes,No,Feline Leukemia
+Dog,2,Female,Yes,Yes,No,Yes,No,No,Yes,Yes,Parvovirus
+Dog,2,Female,No,Yes,No,No,Yes,Yes,Yes,Yes,Parvovirus
+Parrot,5,Female,Yes,No,Yes,Yes,No,Yes,Yes,No,Mite Infestation
+Hamster,4,Female,No,No,Yes,No,Yes,Yes,Yes,Yes,Feline Leukemia
+Hamster,13,Female,No,Yes,Yes,No,No,Yes,No,Yes,Mite Infestation
+Rabbit,15,Male,No,Yes,Yes,No,Yes,No,No,No,Rabies
+Rabbit,15,Male,Yes,Yes,Yes,No,Yes,No,Yes,No,Gastroenteritis
+Hamster,3,Male,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Rabies
+Parrot,4,Male,Yes,Yes,No,Yes,No,No,Yes,No,Gastroenteritis
+Parrot,1,Male,No,Yes,No,No,Yes,Yes,Yes,No,Avian Flu
+Rabbit,15,Female,Yes,Yes,No,No,Yes,Yes,No,No,Healthy
+Parrot,2,Male,Yes,No,No,Yes,Yes,No,Yes,Yes,Healthy
+Cat,1,Female,No,Yes,Yes,No,Yes,No,Yes,No,Gastroenteritis
+Dog,11,Male,No,Yes,Yes,No,No,No,Yes,Yes,Avian Flu
+Dog,6,Male,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Avian Flu
+Parrot,10,Female,No,Yes,Yes,No,No,No,No,No,Mite Infestation
+Hamster,5,Female,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Avian Flu
+Hamster,6,Male,Yes,No,Yes,No,Yes,No,No,Yes,Healthy
+Hamster,7,Female,Yes,Yes,Yes,No,No,No,Yes,No,Parvovirus
+Hamster,9,Male,No,Yes,No,Yes,Yes,No,Yes,No,Mite Infestation
+Dog,5,Female,Yes,Yes,Yes,No,No,Yes,No,Yes,Feline Leukemia
+Cat,13,Male,Yes,Yes,Yes,No,No,No,Yes,Yes,Avian Flu
+Dog,3,Female,Yes,No,No,Yes,No,No,Yes,Yes,Feline Leukemia
+Dog,4,Female,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Gastroenteritis
+Cat,15,Male,Yes,Yes,No,No,No,Yes,Yes,No,Rabies
+Cat,7,Female,No,Yes,No,Yes,No,Yes,Yes,Yes,Avian Flu
+Parrot,8,Female,Yes,Yes,No,No,No,No,No,No,Gastroenteritis
+Hamster,8,Male,No,Yes,Yes,No,No,No,No,Yes,Mite Infestation
+Parrot,13,Female,Yes,No,Yes,Yes,No,Yes,No,Yes,Mite Infestation
+Dog,9,Male,No,Yes,Yes,No,Yes,Yes,No,Yes,Gastroenteritis
+Parrot,9,Male,Yes,No,Yes,No,No,Yes,Yes,No,Avian Flu
+Cat,4,Male,Yes,No,Yes,No,No,Yes,No,Yes,Healthy
+Dog,5,Female,Yes,No,Yes,Yes,No,No,No,No,Parvovirus
+Parrot,5,Female,No,Yes,No,Yes,No,Yes,No,Yes,Rabies
+Rabbit,11,Female,Yes,No,Yes,Yes,No,No,No,Yes,Healthy
+Parrot,8,Male,No,Yes,No,Yes,No,No,Yes,Yes,Mite Infestation
+Hamster,12,Male,No,Yes,Yes,Yes,Yes,No,No,No,Avian Flu
+Cat,7,Male,No,No,No,No,No,Yes,No,No,Gastroenteritis
+Dog,12,Female,Yes,No,No,Yes,No,No,No,Yes,Avian Flu
+Dog,14,Female,No,No,No,No,Yes,No,No,Yes,Gastroenteritis
+Hamster,1,Male,Yes,Yes,No,No,Yes,Yes,Yes,No,Feline Leukemia
+Hamster,14,Male,Yes,No,No,Yes,Yes,No,No,No,Gastroenteritis
+Parrot,12,Female,Yes,No,No,No,Yes,Yes,No,No,Feline Leukemia
+Parrot,6,Female,Yes,Yes,No,Yes,Yes,No,No,No,Healthy
+Hamster,5,Male,Yes,Yes,Yes,Yes,No,No,No,No,Gastroenteritis
+Parrot,14,Female,Yes,No,No,No,Yes,Yes,No,Yes,Healthy
+Cat,8,Male,No,No,No,No,No,Yes,Yes,Yes,Rabies
+Rabbit,8,Female,Yes,Yes,No,No,No,Yes,No,Yes,Parvovirus
+Dog,13,Male,No,No,Yes,No,No,Yes,Yes,No,Parvovirus
+Parrot,12,Male,Yes,Yes,Yes,Yes,No,No,Yes,No,Gastroenteritis
+Dog,2,Female,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Rabies
+Dog,9,Male,Yes,No,Yes,No,Yes,No,No,No,Feline Leukemia
+Dog,1,Female,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Parvovirus
+Parrot,5,Female,No,Yes,Yes,Yes,No,Yes,No,No,Avian Flu
+Rabbit,15,Male,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Gastroenteritis
+Hamster,7,Male,No,Yes,No,Yes,No,No,No,No,Feline Leukemia
+Hamster,1,Male,Yes,No,No,Yes,No,Yes,Yes,No,Healthy
+Dog,11,Female,Yes,Yes,Yes,No,Yes,Yes,No,No,Healthy
+Cat,7,Male,No,Yes,Yes,Yes,No,No,No,No,Gastroenteritis
+Cat,15,Female,No,Yes,Yes,Yes,Yes,Yes,No,No,Rabies
+Cat,12,Male,No,No,Yes,Yes,Yes,Yes,No,Yes,Mite Infestation
+Dog,4,Female,Yes,Yes,Yes,No,No,Yes,No,Yes,Avian Flu
+Dog,4,Female,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Feline Leukemia
+Rabbit,13,Male,No,Yes,Yes,Yes,Yes,No,Yes,No,Healthy
+Cat,2,Female,Yes,Yes,No,No,No,Yes,No,No,Parvovirus
+Hamster,4,Female,No,Yes,Yes,Yes,Yes,No,No,No,Healthy
+Hamster,12,Male,No,Yes,Yes,No,Yes,No,Yes,Yes,Rabies
+Hamster,8,Male,Yes,No,No,Yes,Yes,No,Yes,No,Gastroenteritis
+Rabbit,14,Female,Yes,No,No,No,Yes,No,Yes,No,Avian Flu
+Rabbit,10,Male,No,Yes,No,No,No,No,No,No,Healthy
+Rabbit,8,Male,No,No,Yes,No,Yes,No,Yes,Yes,Gastroenteritis
+Dog,10,Male,No,Yes,Yes,Yes,No,No,Yes,Yes,Parvovirus
+Cat,1,Male,No,Yes,No,Yes,Yes,Yes,No,No,Healthy
+Cat,9,Male,No,Yes,Yes,Yes,Yes,No,No,Yes,Rabies
+Dog,12,Male,Yes,Yes,No,No,Yes,No,Yes,No,Mite Infestation
+Dog,9,Female,Yes,No,No,No,No,No,Yes,Yes,Feline Leukemia
+Hamster,7,Female,No,No,No,Yes,No,No,Yes,No,Rabies
+Parrot,8,Female,Yes,No,Yes,Yes,No,No,Yes,Yes,Parvovirus
+Parrot,3,Male,No,Yes,No,Yes,No,No,Yes,No,Gastroenteritis
+Hamster,6,Female,No,No,No,No,No,No,No,Yes,Avian Flu
+Parrot,14,Male,Yes,Yes,No,No,No,No,No,No,Feline Leukemia
+Parrot,5,Female,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Rabies
+Hamster,11,Female,No,No,Yes,No,Yes,Yes,No,No,Parvovirus
+Dog,2,Female,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Healthy
+Rabbit,9,Male,Yes,No,No,Yes,Yes,No,Yes,Yes,Gastroenteritis
+Dog,2,Male,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Mite Infestation
+Cat,1,Male,Yes,No,Yes,No,No,No,Yes,No,Gastroenteritis
+Hamster,3,Male,No,No,Yes,No,Yes,Yes,Yes,No,Rabies
+Cat,2,Female,No,Yes,No,Yes,Yes,No,No,Yes,Gastroenteritis
+Hamster,2,Male,No,No,No,Yes,Yes,Yes,Yes,Yes,Healthy
+Dog,14,Female,No,Yes,Yes,Yes,Yes,No,Yes,No,Healthy
+Cat,12,Male,No,Yes,Yes,Yes,No,Yes,No,Yes,Mite Infestation
+Rabbit,14,Female,Yes,Yes,No,Yes,No,No,No,No,Mite Infestation
+Dog,9,Female,No,Yes,No,No,No,No,Yes,Yes,Avian Flu
+Hamster,4,Female,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Gastroenteritis
+Dog,11,Male,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Rabies
+Dog,2,Male,No,Yes,Yes,No,No,Yes,Yes,No,Parvovirus
+Parrot,5,Female,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Rabies
+Cat,1,Male,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Healthy
+Parrot,10,Male,No,No,No,Yes,No,No,No,No,Rabies
+Dog,8,Female,No,Yes,Yes,No,Yes,No,Yes,No,Avian Flu
+Hamster,2,Female,Yes,No,No,Yes,Yes,No,Yes,Yes,Gastroenteritis
+Parrot,1,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Avian Flu
+Cat,1,Female,Yes,Yes,No,Yes,No,No,Yes,No,Avian Flu
+Dog,3,Female,No,Yes,Yes,Yes,Yes,No,Yes,No,Healthy
+Hamster,15,Female,Yes,Yes,No,No,Yes,No,No,Yes,Gastroenteritis
+Rabbit,1,Male,No,No,Yes,Yes,No,Yes,No,Yes,Avian Flu
+Rabbit,6,Female,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Gastroenteritis
+Hamster,1,Male,Yes,No,No,Yes,Yes,No,No,Yes,Mite Infestation
+Cat,10,Female,No,No,No,Yes,No,No,Yes,Yes,Feline Leukemia
+Hamster,3,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Mite Infestation
+Hamster,9,Male,Yes,Yes,No,No,Yes,No,Yes,No,Mite Infestation
+Cat,13,Male,Yes,No,Yes,Yes,No,Yes,No,No,Feline Leukemia
+Rabbit,11,Male,Yes,No,Yes,No,No,No,No,Yes,Feline Leukemia
+Parrot,14,Male,No,No,Yes,Yes,Yes,No,Yes,No,Parvovirus
+Cat,8,Female,No,No,Yes,No,No,Yes,Yes,No,Parvovirus
+Parrot,3,Female,Yes,No,No,Yes,No,Yes,Yes,Yes,Feline Leukemia
+Rabbit,3,Female,No,Yes,No,Yes,No,No,Yes,No,Avian Flu
+Dog,11,Male,Yes,No,Yes,No,No,No,No,Yes,Mite Infestation
+Dog,7,Male,No,No,Yes,No,No,Yes,Yes,No,Feline Leukemia
+Rabbit,13,Male,No,No,Yes,Yes,Yes,Yes,Yes,No,Avian Flu
+Cat,2,Male,Yes,No,Yes,No,Yes,No,Yes,No,Parvovirus
+Rabbit,5,Male,Yes,Yes,No,No,Yes,Yes,No,No,Gastroenteritis
+Parrot,14,Female,Yes,No,No,No,No,No,No,Yes,Rabies
+Hamster,11,Female,Yes,Yes,No,No,No,No,Yes,No,Healthy
+Dog,14,Male,Yes,No,Yes,Yes,No,No,No,Yes,Feline Leukemia
+Dog,9,Female,No,No,No,Yes,No,Yes,Yes,Yes,Gastroenteritis
+Rabbit,10,Female,No,Yes,Yes,No,Yes,No,Yes,No,Avian Flu
+Parrot,10,Male,No,Yes,No,Yes,No,Yes,No,Yes,Avian Flu
+Rabbit,14,Female,No,Yes,Yes,No,No,No,No,No,Feline Leukemia
+Hamster,13,Male,No,No,Yes,No,Yes,No,Yes,Yes,Avian Flu
+Dog,1,Male,Yes,No,No,Yes,No,Yes,No,No,Parvovirus
+Dog,5,Female,No,No,Yes,No,Yes,Yes,No,Yes,Avian Flu
+Cat,10,Male,Yes,Yes,No,No,Yes,Yes,Yes,No,Rabies
+Cat,12,Male,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Feline Leukemia
+Parrot,10,Male,Yes,No,Yes,Yes,No,Yes,No,No,Feline Leukemia
+Dog,5,Female,No,No,Yes,Yes,No,No,No,Yes,Rabies
+Parrot,5,Male,Yes,Yes,No,No,No,No,No,No,Gastroenteritis
+Dog,8,Male,No,No,Yes,No,Yes,Yes,Yes,Yes,Healthy
+Cat,14,Male,Yes,No,Yes,Yes,No,No,No,No,Mite Infestation
+Cat,2,Male,No,No,Yes,No,No,Yes,No,No,Avian Flu
+Dog,2,Female,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Healthy
+Rabbit,1,Female,No,Yes,Yes,No,No,No,Yes,No,Feline Leukemia
+Dog,2,Male,No,No,No,No,No,No,No,No,Mite Infestation
+Dog,10,Female,No,Yes,No,No,No,No,Yes,No,Gastroenteritis
+Parrot,14,Female,Yes,No,No,Yes,Yes,Yes,No,No,Feline Leukemia
+Hamster,13,Female,No,Yes,No,Yes,No,Yes,Yes,No,Feline Leukemia
+Rabbit,4,Male,No,Yes,Yes,No,Yes,Yes,No,No,Healthy
+Hamster,4,Female,No,Yes,No,No,No,No,Yes,No,Mite Infestation
+Dog,2,Female,No,Yes,Yes,Yes,No,Yes,No,Yes,Gastroenteritis
+Cat,6,Female,No,Yes,Yes,Yes,No,No,No,Yes,Parvovirus
+Cat,13,Female,No,Yes,No,No,Yes,Yes,Yes,No,Rabies
+Hamster,13,Male,Yes,No,Yes,Yes,No,No,Yes,Yes,Feline Leukemia
+Cat,2,Male,Yes,No,No,No,Yes,No,Yes,Yes,Feline Leukemia
+Dog,9,Female,No,Yes,Yes,No,Yes,Yes,Yes,No,Rabies
+Parrot,12,Male,No,Yes,Yes,No,Yes,Yes,Yes,No,Feline Leukemia
+Hamster,6,Female,Yes,No,No,Yes,No,Yes,No,Yes,Avian Flu
+Hamster,2,Female,No,No,Yes,Yes,No,No,No,Yes,Healthy
+Parrot,6,Male,Yes,No,No,Yes,No,No,Yes,Yes,Avian Flu
+Dog,2,Male,No,No,No,No,Yes,No,Yes,No,Parvovirus
+Rabbit,9,Male,No,No,No,No,No,Yes,Yes,No,Rabies
+Rabbit,7,Male,No,Yes,No,No,Yes,No,No,Yes,Gastroenteritis
+Dog,4,Male,No,Yes,No,Yes,Yes,No,No,Yes,Rabies
+Parrot,6,Male,No,No,No,No,No,No,No,No,Mite Infestation
+Dog,12,Female,No,No,Yes,No,No,No,No,Yes,Feline Leukemia
+Rabbit,9,Female,No,No,Yes,Yes,No,No,Yes,No,Healthy
+Parrot,10,Male,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Rabies
+Parrot,8,Female,Yes,No,No,Yes,Yes,No,Yes,Yes,Healthy
+Dog,10,Male,No,Yes,No,No,No,Yes,No,No,Healthy
+Parrot,2,Male,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Feline Leukemia
+Dog,11,Female,No,Yes,No,No,Yes,No,No,Yes,Rabies
+Dog,12,Female,No,Yes,Yes,Yes,No,No,No,Yes,Avian Flu
+Parrot,6,Female,No,Yes,No,No,No,Yes,Yes,No,Parvovirus
+Rabbit,11,Female,No,Yes,Yes,Yes,Yes,No,Yes,No,Gastroenteritis
+Dog,5,Female,No,No,Yes,No,No,Yes,Yes,Yes,Avian Flu
+Hamster,7,Female,Yes,No,No,No,No,Yes,Yes,No,Parvovirus
+Rabbit,14,Female,Yes,Yes,Yes,No,Yes,Yes,No,No,Mite Infestation
+Dog,11,Female,Yes,No,Yes,No,No,No,Yes,No,Gastroenteritis
+Parrot,15,Male,No,Yes,Yes,Yes,No,Yes,No,Yes,Rabies
+Rabbit,7,Male,Yes,No,No,No,No,No,No,Yes,Mite Infestation
+Rabbit,5,Female,Yes,Yes,Yes,Yes,No,No,No,No,Parvovirus
+Rabbit,4,Male,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Mite Infestation
+Hamster,15,Male,Yes,No,No,Yes,No,No,Yes,No,Rabies
+Hamster,1,Female,Yes,Yes,Yes,Yes,No,No,No,Yes,Feline Leukemia
+Rabbit,5,Male,No,No,No,No,Yes,Yes,No,No,Gastroenteritis
+Rabbit,14,Female,No,Yes,Yes,No,No,Yes,No,Yes,Feline Leukemia
+Rabbit,1,Female,No,Yes,No,Yes,Yes,Yes,Yes,No,Healthy
+Rabbit,6,Male,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Avian Flu
+Parrot,2,Male,Yes,Yes,No,Yes,No,No,No,Yes,Rabies
+Cat,7,Female,Yes,No,Yes,No,No,No,Yes,No,Healthy
+Dog,7,Male,No,Yes,Yes,No,Yes,Yes,No,Yes,Healthy
+Rabbit,6,Female,No,No,Yes,No,Yes,Yes,No,No,Feline Leukemia
+Dog,2,Female,No,No,No,No,Yes,No,No,No,Feline Leukemia
+Rabbit,15,Female,Yes,No,No,No,No,No,No,Yes,Mite Infestation
+Cat,4,Female,Yes,No,No,No,Yes,Yes,No,Yes,Feline Leukemia
+Dog,14,Male,No,No,No,Yes,No,No,Yes,No,Rabies
+Cat,8,Female,No,No,Yes,No,No,No,Yes,Yes,Gastroenteritis
+Rabbit,1,Female,Yes,No,No,Yes,No,Yes,No,No,Gastroenteritis
+Rabbit,7,Female,No,No,Yes,No,Yes,No,No,No,Feline Leukemia
+Parrot,2,Female,No,Yes,No,No,Yes,Yes,Yes,Yes,Healthy
+Rabbit,9,Female,Yes,No,Yes,Yes,Yes,No,No,No,Mite Infestation
+Hamster,3,Male,No,Yes,No,No,Yes,Yes,Yes,No,Avian Flu
+Hamster,2,Female,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Feline Leukemia
+Cat,7,Female,No,Yes,No,No,No,Yes,Yes,No,Healthy
+Dog,14,Female,Yes,Yes,No,No,Yes,No,No,No,Gastroenteritis
+Cat,6,Male,No,No,No,Yes,No,No,Yes,Yes,Rabies
+Hamster,11,Female,No,No,Yes,Yes,No,Yes,No,Yes,Gastroenteritis
+Rabbit,5,Female,Yes,No,Yes,No,No,No,Yes,No,Gastroenteritis
+Parrot,5,Female,No,No,Yes,No,No,No,Yes,Yes,Avian Flu
+Parrot,2,Male,Yes,No,No,No,Yes,Yes,No,Yes,Feline Leukemia
+Hamster,12,Female,Yes,No,Yes,Yes,No,Yes,No,No,Mite Infestation
+Dog,9,Male,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Healthy
+Cat,11,Female,Yes,No,Yes,Yes,Yes,Yes,No,No,Mite Infestation
+Rabbit,14,Female,No,Yes,Yes,Yes,No,Yes,No,Yes,Healthy
+Cat,15,Male,Yes,Yes,No,No,No,No,Yes,Yes,Gastroenteritis
+Cat,1,Male,No,Yes,Yes,Yes,Yes,No,No,Yes,Parvovirus
+Rabbit,15,Female,No,No,No,No,Yes,No,Yes,No,Mite Infestation
+Hamster,10,Female,No,No,No,No,No,No,No,No,Avian Flu
+Hamster,3,Male,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Parvovirus
+Hamster,15,Female,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Mite Infestation
+Dog,7,Female,No,No,No,No,Yes,Yes,No,Yes,Parvovirus
+Dog,3,Male,Yes,No,Yes,No,Yes,No,Yes,Yes,Avian Flu
+Parrot,9,Female,No,No,Yes,No,No,No,No,Yes,Parvovirus
+Dog,14,Male,No,Yes,Yes,Yes,No,Yes,Yes,No,Feline Leukemia
+Hamster,6,Male,Yes,Yes,No,No,No,Yes,No,Yes,Feline Leukemia
+Cat,10,Male,Yes,No,Yes,No,Yes,No,Yes,Yes,Rabies
+Hamster,4,Female,Yes,No,Yes,Yes,No,No,No,Yes,Mite Infestation
+Rabbit,3,Female,No,No,No,No,Yes,No,Yes,Yes,Mite Infestation
+Cat,1,Female,Yes,No,Yes,No,No,No,Yes,No,Avian Flu
+Hamster,7,Female,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Parvovirus
+Hamster,15,Female,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Mite Infestation
+Cat,9,Male,No,Yes,Yes,Yes,Yes,Yes,No,No,Rabies
+Rabbit,8,Male,Yes,No,Yes,No,No,No,No,No,Feline Leukemia
+Rabbit,9,Female,Yes,No,No,Yes,Yes,Yes,No,No,Gastroenteritis
+Rabbit,2,Female,No,Yes,Yes,No,Yes,Yes,No,Yes,Gastroenteritis
+Cat,5,Female,No,No,Yes,Yes,No,Yes,No,No,Parvovirus
+Dog,6,Female,No,No,No,No,Yes,No,No,Yes,Mite Infestation
+Rabbit,5,Male,Yes,No,No,Yes,No,Yes,Yes,Yes,Avian Flu
+Rabbit,6,Female,No,No,No,No,Yes,Yes,No,Yes,Feline Leukemia
+Hamster,7,Male,No,Yes,No,Yes,Yes,No,Yes,No,Rabies
+Hamster,8,Female,No,Yes,No,Yes,No,Yes,No,Yes,Healthy
+Parrot,14,Male,Yes,No,Yes,Yes,Yes,No,No,Yes,Mite Infestation
+Rabbit,10,Male,Yes,No,Yes,No,Yes,Yes,No,No,Parvovirus
+Parrot,14,Male,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Healthy
+Hamster,12,Female,Yes,Yes,Yes,No,No,No,Yes,No,Healthy
+Hamster,2,Female,Yes,Yes,Yes,Yes,No,Yes,No,No,Feline Leukemia
+Hamster,11,Male,Yes,Yes,No,No,Yes,Yes,No,No,Avian Flu
+Hamster,5,Female,Yes,No,Yes,No,No,Yes,Yes,Yes,Gastroenteritis
+Parrot,9,Male,Yes,Yes,No,Yes,No,No,No,Yes,Rabies
+Rabbit,8,Female,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Avian Flu
+Dog,2,Male,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Mite Infestation
+Dog,1,Male,Yes,Yes,No,No,Yes,No,Yes,Yes,Gastroenteritis
+Dog,2,Male,No,No,No,No,No,Yes,No,No,Healthy
+Rabbit,3,Female,Yes,Yes,Yes,Yes,Yes,No,No,No,Avian Flu
+Cat,5,Female,No,Yes,No,Yes,Yes,Yes,Yes,No,Avian Flu
+Hamster,3,Male,Yes,No,No,Yes,No,No,Yes,No,Mite Infestation
+Parrot,2,Female,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Feline Leukemia
+Dog,15,Female,Yes,No,No,No,Yes,Yes,Yes,No,Mite Infestation
+Parrot,15,Female,Yes,Yes,Yes,Yes,No,Yes,No,No,Feline Leukemia
+Parrot,5,Female,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Avian Flu
+Cat,13,Male,No,No,No,Yes,Yes,No,Yes,No,Parvovirus
+Parrot,6,Female,Yes,Yes,Yes,No,No,No,No,No,Mite Infestation
+Parrot,10,Male,No,Yes,Yes,Yes,No,No,No,No,Avian Flu
+Cat,1,Male,Yes,Yes,Yes,Yes,No,No,No,Yes,Mite Infestation
+Parrot,12,Male,Yes,No,Yes,No,Yes,No,Yes,Yes,Parvovirus
+Hamster,4,Female,No,Yes,No,No,Yes,No,No,No,Healthy
+Dog,13,Female,Yes,No,No,No,Yes,No,Yes,No,Rabies
+Rabbit,1,Male,No,Yes,Yes,Yes,Yes,No,No,Yes,Avian Flu
+Dog,12,Female,Yes,Yes,No,No,Yes,No,No,Yes,Healthy
+Rabbit,2,Male,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Mite Infestation
+Hamster,4,Male,Yes,Yes,No,No,Yes,No,No,Yes,Gastroenteritis
+Dog,11,Male,Yes,No,No,Yes,No,Yes,Yes,No,Avian Flu
+Parrot,14,Male,Yes,No,Yes,No,Yes,Yes,No,Yes,Gastroenteritis
+Parrot,1,Male,No,Yes,Yes,Yes,Yes,No,No,Yes,Feline Leukemia
+Dog,1,Male,No,No,No,No,Yes,Yes,Yes,Yes,Feline Leukemia
+Cat,1,Female,No,No,No,No,No,No,No,No,Healthy
+Cat,14,Male,No,No,No,No,No,No,No,No,Healthy
+Dog,1,Male,No,No,No,No,No,No,No,No,Healthy
+Dog,14,Female,No,No,No,No,No,No,No,No,Healthy
+Hamster,1,Female,No,No,No,No,No,No,No,No,Healthy
+Hamster,14,Male,No,No,No,No,No,No,No,No,Healthy
+Rabbit,1,Male,No,No,No,No,No,No,No,No,Healthy
+Rabbit,14,Female,No,No,No,No,No,No,No,No,Healthy
+Parrot,14,Female,No,No,No,No,No,No,No,No,Healthy
+Parrot,1,Male,No,No,No,No,No,No,No,No,Healthy
